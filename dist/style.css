@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Koulen&display=swap');
+
+html {
+  height: 100vh;
+}
+
+header {
+  color: white;
+  padding-top: 10rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 450;
+  font-size: 3rem;
+  position: relative;
+  z-index: 2;
+}
+
+p {
+  color: white;
+  padding-top: 100rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 450;
+  font-size: 3rem;
+  position: relative;
+  z-index: 2;
+}
+
+#pfour {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 450;
+  font-size: 3rem;
+  position: relative;
+  top: 100px;
+}
+
+li {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 450;
+  font-size: 3rem;
+  position: relative;
+  z-index: 2;
+  list-style: none;
+  top: 100px;
+}
+
+body {
+  height: 500vh;
+  background: #000;
+  z-index: 0;
+}
+
+canvas {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  canvas {
+    transform: translate(-50%, -50%);
+    max-width: 500vw;
+  }
+}
